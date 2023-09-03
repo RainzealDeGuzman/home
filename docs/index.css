@@ -1,0 +1,17 @@
+body {
+    font-family: Arial ;
+}
+h1 {
+    color: blue;
+    }
+h2 {
+    color: red;
+}
+p {
+    color: green;
+	font-weight: bolder;
+}
+img {
+    height: 150px;
+    width: 150px;
+}
