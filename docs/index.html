@@ -1,28 +1,104 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Personal Webpage</title>
-        <link rel="stylesheet" href="index.css"/>
-    </head>
-    <body>
-        <img src="rainzeal pic.jpg" alt="Rainzeal De Guzman's picture"/>
-        <h1>Rainzeal De Guzman</h1>
-        <p>Address: 487 Don Gregorio Ave., Almanza Uno, Las Pinas City</p>
-        <p>Birthdate: October 28, 2002</p>
-        <p>Motto: The die is cast.</p>
-        <h2>Educational Background</h2>
-        <ul>
-            <li>Primary - Almanza Elementary School</li>
-            <li>Junior High - De La Salle Santiago Zobel</li>
-            <li>Junior High - Las Pinas National High School - Almanza</li>
-            <li>Senior High - Las Pinas City National Senior High School - Dona Josefa Campus</li>
-        </ul>
-        <h2>Work Experience</h2>
-        <h2>Interests</h2>
-        <ul>
-            <li>Video Games</li>
-            <li>Watching Anime</li>
-            <li>Reading Books</li>
-        </ul>
-    </body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Personal Website</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	</head>
+	<body>
+		<section id="home">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+				<div class="container">
+					<a class="navbar-brand" href="#home">My Personal Website</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>		
+			<header>
+				<div id="carouselExampleCaptions" class="carousel slide">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="rainmultiplicity.jpg" class="d-block w-100" style="filter: brightness(40%);" alt="A picture of Rainzeal De Guzman, edited using Photoshop CS6 to present the concept of multiplicity."/>
+							<div class="carousel-caption d-none d-md-block active">
+								<h5>Rainzeal De Guzman</h5>
+								<p>A picture of Rainzeal De Guzman, edited using Photoshop CS6 to present the concept of multiplicity.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="sunset.jpg" class="d-block w-100" alt="Sunset taken by Rainzeal De Guzman in PLMUN."/>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Rainzeal De Guzman</h5>
+								<p>Sunset taken by Rainzeal De Guzman in PLMUN.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="2021grad.jpg" class="d-block w-100" style="filter: brightness(40%);" alt="A low resolution screenshot of Rainzeal De Guzman's 2021 VIrtual Graduation in LPCNSHS-DJC."/>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Rainzeal De Guzman</h5>
+								<p>A low resolution screenshot of Rainzeal De Guzman's 2021 VIrtual Graduation in LPCNSHS-DJC.</p>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</header>
+		</section>
+		<section id="about" class="text-white bg-dark py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<br/>
+						<h1>About Me</h2>
+						<br/>
+						<h2>Who Am I?</h2>
+						<ul>
+							<li><strong>Name:</strong> Rainzeal De Guzman</li>
+							<li><strong>Address:</strong> 487 Don Gregorio Ave., Almanza Uno, Las Pinas City</li>
+							<li><strong>Birthdate:</strong> October 28, 2002</li>
+							<li><strong>Motto:</strong> The die is cast.</li>
+						</ul>
+						<h2>Educational Background</h2>
+						<ul>
+							<li>Primary - Almanza Elementary School</li>
+							<li>Junior High - De La Salle Santiago Zobel</li>
+							<li>Junior High - Las Pinas National High School - Almanza</li>
+							<li>Senior High - Las Pinas City National Senior High School - Dona Josefa Campus</li>
+						</ul>
+						<h2>Interests</h2>
+						<ul>
+							<li>Video Games</li>
+							<li>Watching Anime</li>
+							<li>Reading Books</li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<br/>
+						<img src="rainzeal pic.jpg" alt="Profile Image" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>
